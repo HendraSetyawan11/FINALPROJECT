@@ -1,0 +1,106 @@
+html {
+  background-image: url(putih.jpg);
+  background-size: contain;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;}
+
+
+  nav {
+    background-color: #555;
+    text-align: center;
+    padding: 10px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  section {
+           padding: 20px;
+    text-align: center;
+  }
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: rgb(251, 253, 250);
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.tulisan_satu {
+  color: black;
+font-size: 35px;
+font-style: bold ;
+font-style: italic;
+text-decoration: lightcoral;
+}
+
+.tulisan_dua {
+  color: black;
+font-size: 20px;
+font-style: bold ;
+text-decoration: lightcoral;}
+
+.tulisan_bawah { 
+  color: white;
+  font-size: 20px;
+  font-style: bold;
+  text-align: center;
+}
+
+.tulisan_email {
+  color: white;
+  font-size: 15px;
+  font-style: bold, italic;
+  text-align: center;
+}
+
+  .tulisan_aku {
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+}
+form input[type="submit"] {
+  margin: 0;
+  background-color: rgb(50, 173, 50);
+  color: rgb(2, 2, 2);
+  text-transform: uppercase;
+  text-align: center;
+}
